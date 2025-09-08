@@ -1,0 +1,166 @@
+{
+  "Header.Item1": "À propos de moi",
+  "Header.Item2": "Expérience",
+  "Header.Item3": "Projets",
+  "Header.Item4": "Contact",
+  "Header.cvBtn": "Mon CV",
+  "Header.cvName": "MohamedHabibDhaouadi_CV.pdf",
+  "Loading": "Chargement...",
+
+  "Banner.Pretitle": "Bonjour ! Je m'appelle",
+  "Banner.Description": "Je suis un ingénieur en génie logiciel passionné, diplômé de l'ESPRIT, avec une solide expérience dans le développement <span class='underline'>web</span>, <span class='underline'>mobile</span> et <span class='underline'>DevOps</span>. Je conçois des applications performantes en <span class='underline'>Spring Boot</span>, <span class='underline'>Angular</span> et <span class='underline'>Flutter</span>, tout en adoptant une approche moderne basée sur l'intégration et le déploiement continus.",
+  "Banner.ActionBtn": "Me contacter",
+
+  "AboutMe.Title": "À propos de moi",
+  "AboutMe.Paragraphs": [
+    "Je suis Mohamed Habib Dhaouadi, ingénieur en génie logiciel, avec une passion pour la création de solutions numériques innovantes. Mon parcours m'a permis d'acquérir une expertise polyvalente dans les technologies web, mobile et DevOps.",
+    "J'ai travaillé sur des projets variés allant de plateformes de gestion de rendez-vous à des applications DevOps avancées, en passant par la santé numérique et la visualisation de données.",
+    "Je maîtrise des outils comme Docker, Jenkins, Kubernetes, SonarQube et j’adopte une approche agile basée sur Scrum.",
+    "Mes objectifs : créer des applications robustes, évolutives, sécurisées et centrées sur l'utilisateur."
+  ],
+
+  
+  "Experience.Title": "Expérience",
+  "Experience.Jobs": [
+    {
+      "Tab": "SHIFT",
+      "Title": "Stagiaire Fullstack & DevOps",
+      "Date": "Février 2024 - Août 2024",
+      "Description": [
+        "Développement d'une plateforme de gestion de rendez-vous avec Angular, Spring Boot et Flutter",
+        "Implémentation de fonctionnalités complexes (notifications, calendriers, réclamations...)",
+        "Intégration CI/CD avec Docker, Kubernetes, Jenkins et SonarQube",
+        "Tests de performance avec JMeter et qualité du code avec Sonar"
+      ]
+    },
+    {
+      "Tab": "SHIFT",
+      "Title": "Stagiaire Web",
+      "Date": "Juin 2023 - Juillet 2023",
+      "Description": [
+        "Conception d’une application web pour améliorer la qualité des réseaux 4G",
+        "Technos : Angular, Spring Boot"
+      ]
+    },
+    {
+      "Tab": "Continuous-Net",
+      "Title": "Stagiaire Développeur Web",
+      "Date": "Juillet 2022 - Août 2022",
+      "Description": [
+        "Participation à un projet de santé numérique pour la gestion des données médicales",
+        "Technos : Angular"
+      ]
+    }
+  ],
+
+"FeatureProjects.Title": "Mes Projets",
+  "FeatureProjects.Label": "Projet mis en avant",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "Ski Station",
+      "Description": "Mise en place d’un pipeline CI/CD avec Jenkins pour une application Spring Boot conteneurisée via Docker. Surveillance avec Grafana et analyse du code avec SonarQube.",
+      "imgs": [
+        "assets/images/img/1.jpg",
+        "assets/images/img/2.jpg",
+        "assets/images/img/3.jpg",
+        "assets/images/img/4.jpg",
+        "assets/images/img/5.jpg",
+        "assets/images/img/6.jpg"
+      ],
+      "Technologies": ["Spring Boot", "JUnit/Mockito", "Jenkins", "SonarQube", "Docker", "Prometheus & Grafana"]
+    },
+
+    { 
+      "Title": "Projet Immobilier", 
+       "Description": "Application web pour la centralisation des offres immobilières avec analyse des prix selon la localisation et le temps. Interface Angular avec backend Spring Boot.", 
+      "imgs": [ 
+        "assets/images/img/im2.png", 
+        "assets/images/img/im.jpg", 
+        "assets/images/img/im3.jpg", 
+        "assets/images/img/im4.jpg", 
+        "assets/images/img/im5.jpg", 
+        "assets/images/img/im1.jpg"
+       ], 
+      "Technologies": ["Spring Boot", "Angular", "Git"] },
+
+
+
+    {
+      "Title": "WeProvide",
+      "Description": "Application multiplateforme (web, desktop, mobile) pour la gestion de locations, services et restaurations. Utilisation de Symfony, Java, Codename One et MySQL.",
+      "imgs": [
+        "assets/images/img/w.png",
+        "assets/images/img/w1.png",
+        "assets/images/img/w2.png"
+        
+      ],
+      "Technologies": ["Symfony", "Codename One", "Java", "MySQL"]
+    },
+
+    {
+      "Title": "Robot Éviteur d’obstacles",
+      "Description": "Développement d’un robot autonome capable d’éviter les obstacles grâce à un système Arduino programmé en C++.",
+      "imgs": [
+        "assets/images/img/r1.jpg",
+        "assets/images/img/r2.jpg",
+        "assets/images/img/r3.jpg"
+      ],
+      "Technologies": ["C++", "Arduino"]
+    },
+
+    {
+      "Title": "UnitTest",
+      "Description": "J’ai développé une suite de tests unitaires et d’intégration pour un module de gestion de contrats et de plans sous Spring Boot, utilisant Mockito pour simuler les dépendances et assurer la fiabilité des opérations CRUD et des calculs métiers.",
+      "imgs": [
+        "assets/images/img/t1.jpg",
+        "assets/images/img/t2.png",
+        "assets/images/img/t3.png"
+      ],
+      "Technologies": ["Spring Boot", "Java 17", "Mockito ", "JUnit 5", "MySQL"]
+    }
+
+
+   
+   
+   
+  ],
+
+  "OtherProjects.Title": "Autres  projets",
+  "OtherProjects.Projects": [
+    {
+      "Title": "RendezVous Intelligent",
+      "Description": "Application de gestion de rendez-vous développée avec Spring Boot, Angular et Flutter. Elle permet la gestion des utilisateurs, la réservation et le suivi des rendez-vous, l’envoi de notifications automatiques ainsi qu’un module de réclamations. Le projet intègre également des pratiques DevOps avec Docker, Kubernetes et Jenkins.",
+      "imgs": ["assets/images/hands-game.png"],
+      "ghLink": "https://github.com/dhaouadimedhabib/angular-rendezvous",
+      "demoLink": "https://angular-rendezvous.vercel.app/",
+      "Technologies": ["Spring Boot","Angular","MySQL","Docker","Kubernetes","Jenkins","SonarQube","JMeter"]
+    },
+    {
+      "Title": "RendezVous Mobile",
+      "Description": "Application mobile multiplateforme développée avec Flutter, connectée au backend Spring Boot, permettant la gestion des rendez-vous et des plannings. Elle offre une expérience utilisateur optimisée avec des notifications en temps réel.",
+      "imgs": ["assets/images/countries-viewer.png"],
+      "ghLink": "https://github.com/dhaouadimedhabib/flutter-rendezvous",
+      "demoLink": "https://flutter-rendezvous-kdw7.vercel.app/",
+      "Technologies": ["Spring Boot", "Flutter", "Git", "MySQL"]
+    },
+    {
+      "Title": "Immobilier",
+      "Description": "Application web de gestion immobilière développée avec Spring Boot et Angular. Elle centralise les offres de biens, permet l’analyse et la comparaison, et inclut un module de prévision des prix par zone, heure et lieu afin d’aider les utilisateurs dans leur prise de décision.",
+      "ghLink": "https://github.com/PIDEV-4SAE-2223/4sae4-techmaster-techmaster",
+      "demoLink": "",
+      "Technologies": ["Symfony", "Java", "Git","MySQL"]
+    },
+    {
+      "Title": "AndroidProjetRealEstate",
+      "Description": "Projet personnel d'une application mobile développée avec Android Studio pour la gestion et la visualisation de biens immobiliers. Utilisation de Java/Kotlin et SQLite pour la base de données, avec intégration de notifications et fonctionnalités interactives.",
+      "ghLink": "https://github.com/Ahmedbenabdallah29435/AndroidProjetRealEstate/commits?author=dhaouadimedhabib",
+      "demoLink": "",
+      "Technologies": ["Android Studio", "Java/Kotlin", "SQLite", "Git"]
+    }
+  ],
+
+  "Contact.Pretitle": "Intéressé ?",
+  "Contact.Title": "Prenons contact",
+  "Contact.Content": "Je suis à la recherche d'opportunités à temps plein pour contribuer à des projets innovants. N'hésitez pas à me contacter si mon profil vous intéresse.",
+  "Contact.Btn": "Envoyer un message"
+}
